@@ -1,0 +1,13 @@
+[build-system]
+requires = ["scikit-build-core>=0.8.0", "nanobind>=1.9.0"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "density_equalizing_transformations"
+version = "1.0.0"
+description = "Density-Equalizing Transformations"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "Hennes Rave" }
+]
